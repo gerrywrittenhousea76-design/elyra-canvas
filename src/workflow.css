@@ -1,0 +1,27 @@
+.workflow-card { position:absolute; background:var(--panel,#fff); color:var(--text,#222); border:1px solid var(--line,#ddd); border-radius:12px; box-shadow:0 4px 16px #0000000c; }
+.workflow-card.selected { outline:2px solid #7488fa; }
+.workflow-card header { height:42px; padding:0 14px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid var(--line,#ddd); cursor:grab; font-size:13px; }
+.workflow-card header span,.workflow-input-summary { font-size:11px; color:var(--muted,#888); }
+.workflow-editor { padding:12px; display:flex; flex-direction:column; gap:10px; }
+.workflow-editor label { font-size:12px; }
+.workflow-editor textarea { width:100%; min-height:100px; box-sizing:border-box; resize:vertical; max-height:140px; border:1px solid var(--line,#ddd); border-radius:8px; padding:9px; color:inherit; background:transparent; font:13px/1.5 inherit; }
+.workflow-editor select,.workflow-editor button { min-height:32px; border:1px solid var(--line,#ddd); border-radius:7px; color:inherit; background:var(--panel,#fff); font-size:12px; padding:6px; }
+.workflow-editor button { cursor:pointer; background:#24262d; color:#fff; }
+.workflow-editor button:disabled { opacity:.5; cursor:default; }
+.workflow-error { margin:0; color:#d65353; font-size:12px; line-height:1.5; }
+.workflow-port { position:absolute; width:20px; height:20px; border:2px solid #8992bb; border-radius:50%; background:var(--panel,#fff); color:var(--text,#222); z-index:3; display:grid; place-items:center; padding:0; font-size:15px; cursor:crosshair; }
+.workflow-port.connecting { background:#7385fa; color:#fff; }
+.workflow-wires { position:absolute; inset:0; overflow:visible; pointer-events:none; }
+.workflow-wires path { fill:none; stroke:#8293df; stroke-width:2; }
+.workflow-wires .workflow-wire-hit { pointer-events:stroke; stroke:transparent; stroke-width:14; cursor:pointer; }
+.workflow-add-menu { position:absolute; z-index:30; top:80px; left:20px; padding:10px; min-width:180px; display:grid; gap:6px; background:var(--panel,#fff); color:var(--text,#222); border:1px solid var(--line,#ddd); border-radius:10px; box-shadow:0 8px 35px #0002; }
+.workflow-add-menu button { color:inherit; background:transparent; text-align:left; padding:10px; border:0; border-radius:6px; cursor:pointer; }
+.workflow-add-menu button:hover { background:#8882; }
+.workflow-connection-bar { position:absolute; z-index:25; top:64px; left:50%; transform:translateX(-50%); padding:8px 12px; background:var(--panel,#fff); color:var(--text,#222); border:1px solid var(--line,#ddd); border-radius:8px; display:flex; gap:8px; align-items:center; font-size:12px; }
+.workflow-connection-bar button { border:1px solid var(--line,#ddd); border-radius:5px; padding:5px; background:transparent; color:inherit; cursor:pointer; }
+
+.canvas-card .handle { width:18px; height:18px; }
+.canvas-card .handle-nw { left:-10px; top:-10px; }
+.canvas-card .handle-ne { right:-10px; top:-10px; }
+.canvas-card .handle-sw { left:-10px; bottom:-10px; }
+.canvas-card .handle-se { right:-10px; bottom:-10px; }

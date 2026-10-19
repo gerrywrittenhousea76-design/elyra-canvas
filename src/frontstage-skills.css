@@ -1,0 +1,23 @@
+.elyra-entry.skills-frontstage.theme-light { --entry-bg:#f6f5f2;--entry-surface:#fff;--entry-text:#20211f;--entry-muted:#7c7d77;--entry-accent:#626c4e;--entry-accent-ink:#fff;--entry-line:#e4e3de; background:#f6f5f2;color:#20211f; }
+.elyra-home-header {max-width:1480px;margin:auto;height:88px;padding:0 5%;display:flex;align-items:center;justify-content:space-between;gap:28px;}
+.elyra-home-header button {border:0;background:none;display:inline-flex;align-items:center;gap:10px;white-space:nowrap;font-size:13px;}
+.elyra-home-brand img {width:29px;height:25px;}.elyra-home-brand b {font-size:22px;letter-spacing:-1px;}.elyra-home-brand span {border-left:1px solid #cfcec8;padding-left:12px;color:#71716c;font-size:12px;letter-spacing:3px;}
+.elyra-home-header nav {display:flex;gap:36px;}.elyra-home-header nav button {color:#6f7069;padding:10px 0;}.elyra-home-header nav button:hover,.elyra-home-header nav button[aria-current] {color:#171814;}
+.elyra-home-header .elyra-enter-canvas {border:1px solid #d9d8d1;border-radius:30px;padding:10px 18px;background:#fafaf8;}.elyra-enter-canvas svg{width:15px;}
+.skills-frontstage .entry-main {width:100%;max-width:1380px;margin:auto;padding:60px 5% 34px;}
+.skills-frontstage .entry-composer-wrap {width:min(760px,100%);max-width:760px;margin:auto;}
+.skills-frontstage .entry-intro .entry-composer-wrap {margin-top:0;}
+.skills-frontstage .entry-composer {border:1px solid #e8e7e2;border-radius:24px;padding:22px 24px 16px;background:#fff;box-shadow:0 14px 42px #2225140b;}
+.skills-frontstage .entry-composer textarea {min-height:82px;max-height:160px;font-size:15px;color:#33342f;line-height:1.65;}
+.skills-frontstage .entry-composer textarea::placeholder {color:#9a9a93;}.skills-frontstage .entry-composer-footer {gap:10px;}
+.skills-frontstage .entry-square-button {width:auto;display:inline-flex;align-items:center;gap:6px;padding:0 8px;font-size:12px;color:#777870;background:none;border:0;}
+.skills-frontstage .entry-square-button svg {width:16px;}.skills-frontstage .entry-model-trigger {font-size:12px;background:transparent;border:0;}
+.skills-frontstage .entry-send-button {width:auto;height:38px;padding:0 17px;display:inline-flex;gap:9px;align-items:center;border-radius:24px;background:#252623;color:white;font-size:12px;}
+.skills-frontstage .entry-send-button:disabled {opacity:.4;}.skills-frontstage .entry-send-button svg {width:16px;}
+.skills-frontstage .entry-mode-row {margin:20px auto 0;gap:10px;}.skills-frontstage .entry-mode-button {padding:8px 16px;border:1px solid #deded8;color:#6f7068;background:transparent;border-radius:30px;font-size:12px;}
+.skills-frontstage .entry-mode-button.is-selected {background:#eaeae3;color:#292a25;border-color:#dcdcd3;}.skills-frontstage .entry-mode-button svg {width:15px;}
+.skills-frontstage .entry-quick-row {display:none;}.skills-frontstage .entry-intro {margin-bottom:78px;}
+.skills-frontstage .entry-menu {text-align:left;}.skills-frontstage button:focus-visible,.skills-frontstage input:focus-visible,.skills-frontstage textarea:focus-visible {outline:2px solid #626c4e;outline-offset:4px;}
+@media(min-width:1600px){.skills-frontstage .entry-main{padding-top:60px;}.skills-frontstage .entry-intro{margin-bottom:88px;}}
+@media(max-width:800px){.elyra-home-header{height:74px;padding:0 24px;gap:16px;}.elyra-home-header nav{gap:18px;}.elyra-home-brand span{display:none;}.skills-frontstage .entry-main{padding:54px 24px 30px;}.skills-frontstage .entry-intro{margin-bottom:60px;}}
+@media(max-width:540px){.elyra-home-header{height:108px;flex-wrap:wrap;gap:8px;padding:18px 20px;}.elyra-home-header nav{order:3;width:100%;gap:26px;}.elyra-home-header nav button{font-size:12px;}.elyra-home-header .elyra-enter-canvas{padding:8px 12px;font-size:11px;}.elyra-home-brand b{font-size:20px;}.skills-frontstage .entry-main{padding:40px 18px 28px;}.skills-frontstage .entry-composer{padding:18px 16px 13px;border-radius:20px;}.skills-frontstage .entry-composer textarea{font-size:13px;min-height:82px;}.skills-frontstage .entry-square-button span{display:none;}.skills-frontstage .entry-model-trigger{font-size:10px;gap:4px;}.skills-frontstage .entry-send-button{padding:0 13px;font-size:11px;}.skills-frontstage .entry-composer-footer{gap:4px;}.skills-frontstage .entry-mode-button{font-size:11px;padding:7px 13px;}.skills-frontstage .entry-intro{margin-bottom:52px;}}

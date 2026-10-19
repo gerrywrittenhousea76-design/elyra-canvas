@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 291 234" fill="#111214" role="img" aria-labelledby="title">
+  <title id="title">ELYRA</title>
+  <rect x="10" y="0" width="51" height="51"/>
+  <path d="M10 61h51v51C32.8 111.5 10.3 89.2 10 61Z"/>
+  <path d="M71 57 107 93v19H71Z"/>
+  <path d="M71 122h36v47c-20.1-.7-35.4-20.7-36-47Z"/>
+  <rect x="117" y="122" width="51" height="51"/>
+  <path d="M178 122c20.2.2 35.8 20.4 36 47h-36Z"/>
+  <rect x="117" y="183" width="51" height="51"/>
+  <path d="M178 183h36c-.7 20.2-16.5 40.1-36 51Z"/>
+  <path d="M178 112V93l36-36v55Z"/>
+  <path d="M224 61h51c-.3 28.2-22.8 50.5-51 51Z"/>
+  <rect x="224" y="0" width="51" height="51"/>
+</svg>

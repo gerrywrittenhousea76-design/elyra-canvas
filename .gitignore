@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.env*
+.elyra-runtime/
+.DS_Store
+coverage/
+test-results/
+playwright-report/
+*.log

@@ -1,0 +1,72 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "product-studio",
+    "version": "1.0.0",
+    "name": "商品摄影师",
+    "description": "保留产品细节，让一张普通产品图拥有棚拍质感。",
+    "category": "电商设计",
+    "cover": "/assets/skills/product-studio.png",
+    "output": "image",
+    "reference": "optional",
+    "deliverable": "一张商品主视觉，上传参考图可保留产品外观。",
+    "fields": [
+      { "key": "product", "label": "你的产品", "placeholder": "例如：琥珀色香水，面向年轻女性", "required": true },
+      { "key": "scene", "label": "画面氛围", "defaultValue": "自然日光、奶油色背景、真实材质、克制留白", "required": true }
+    ],
+    "instructions": "你是一名商业产品摄影师。为以下产品制作一张可用于电商的主视觉：{{product}}。画面氛围：{{scene}}。有参考图时严格保留产品形状、结构、颜色、包装和标志；没有参考时生成概念产品，不虚构商品功效。关注真实光影、材质和专业构图，不添加无依据的认证或促销信息。只输出一张完整图片。"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "brand-poster",
+    "version": "1.0.0",
+    "name": "品牌海报设计",
+    "description": "从主题到视觉与文字层级，做一张有记忆点的海报。",
+    "category": "品牌视觉",
+    "cover": "/assets/skills/brand-poster.png",
+    "output": "image",
+    "reference": "optional",
+    "deliverable": "一张品牌海报；最终文字请在导出前核对。",
+    "fields": [
+      { "key": "topic", "label": "品牌与主题", "placeholder": "例如：春日植物展，自然生长", "required": true },
+      { "key": "headline", "label": "海报主标题", "placeholder": "例如：让美好，自然发生", "required": true },
+      { "key": "style", "label": "视觉方向", "defaultValue": "编辑杂志风，优雅衬线字体，大留白，自然色彩", "required": true }
+    ],
+    "instructions": "作为品牌视觉设计师，设计一张完整海报。品牌与主题：{{topic}}。准确使用主标题：{{headline}}。视觉方向：{{style}}。建立主标题、画面主体和辅助信息的清晰层级。参考图仅用于用户提供的主体或风格。不要添加虚构的折扣、品牌认证、日期或联系方式。只输出一张海报图片。"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "social-cover",
+    "version": "1.0.0",
+    "name": "小红书封面",
+    "description": "把内容重点变成吸睛封面，标题清晰，风格统一。",
+    "category": "社交媒体",
+    "cover": "/assets/skills/social-cover.png",
+    "output": "image",
+    "reference": "optional",
+    "deliverable": "一张小红书封面；标题和主体围绕一个内容重点。",
+    "fields": [
+      { "key": "topic", "label": "这篇笔记讲什么", "placeholder": "例如：小预算改造温暖的居家办公角", "required": true },
+      { "key": "title", "label": "封面标题", "placeholder": "例如：我的 1 平米办公角", "required": true },
+      { "key": "audience", "label": "目标读者与风格", "defaultValue": "热爱生活的年轻人，自然生活感、温暖配色", "required": true }
+    ],
+    "instructions": "为小红书笔记设计一张清晰、吸引人的封面。内容：{{topic}}。封面文字严格使用：{{title}}。目标读者与风格：{{audience}}。大标题在手机缩略图下依然清晰，主体明确，边缘留出裁切安全区。不要添加虚假的流量、排名、收益或效果承诺。不使用平台水印。只输出一张完整封面。"
+  },
+  {
+    "schemaVersion": 1,
+    "id": "film-storyboard",
+    "version": "1.0.0",
+    "name": "电影感分镜",
+    "description": "把一句故事变成四格分镜，先看构图，再进入制作。",
+    "category": "影像创作",
+    "cover": "/assets/skills/storyboard.png",
+    "output": "image",
+    "reference": "optional",
+    "deliverable": "一张包含四个镜头的分镜图，不是视频成片。",
+    "fields": [
+      { "key": "story", "label": "一句话故事", "placeholder": "例如：一个人带着相机，沿海岸寻找日落", "required": true },
+      { "key": "style", "label": "影像风格", "defaultValue": "35mm 胶片质感，自然光，安静的公路电影", "required": true }
+    ],
+    "instructions": "你是一名电影分镜师。故事：{{story}}。影像风格：{{style}}。生成一张 2×2 四格分镜图，按左上、右上、左下、右下推进故事，镜头分别考虑交代空间、人物行动、关键细节和情绪收束。角色、服装、道具和环境保持连续，有参考图时保持其主体一致性。每格有独立构图，不加入长段对白或字幕。仅生成分镜图片，不声称视频已完成。"
+  }
+]

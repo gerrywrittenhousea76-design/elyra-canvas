@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "my-brand-poster",
+  "version": "1.0.0",
+  "name": "我的品牌海报",
+  "description": "从主题到视觉与文字层级，做一张有记忆点的海报。",
+  "category": "品牌视觉",
+  "cover": "/assets/skills/brand-poster.png",
+  "output": "image",
+  "reference": "optional",
+  "deliverable": "一张品牌海报；最终文字请在导出前核对。",
+  "fields": [
+    {
+      "key": "topic",
+      "label": "品牌与主题",
+      "placeholder": "例如：春日植物展，自然生长",
+      "required": true
+    },
+    {
+      "key": "headline",
+      "label": "海报主标题",
+      "placeholder": "例如：让美好，自然发生",
+      "required": true
+    },
+    {
+      "key": "style",
+      "label": "视觉方向",
+      "defaultValue": "编辑杂志风，优雅衬线字体，大留白，自然色彩",
+      "required": true
+    }
+  ],
+  "instructions": "作为品牌视觉设计师，设计一张完整海报。品牌与主题：{{topic}}。准确使用主标题：{{headline}}。视觉方向：{{style}}。建立主标题、画面主体和辅助信息的清晰层级。参考图仅用于用户提供的主体或风格。不要添加虚构的折扣、品牌认证、日期或联系方式。只输出一张海报图片。"
+}
